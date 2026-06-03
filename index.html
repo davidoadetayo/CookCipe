@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/css/general.css" />
+    <link rel="stylesheet" href="src/css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>CookCipe</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <nav class="nav">
+            <div class="container">
+              <div class="logo">
+                <a href="index.html">
+                  <span> <strong>Cook</strong>Cipe</span>
+                </a>
+              </div>
+
+              <a href="search.html">
+                <div class="btn-wrapper">
+                  <div class="btn">
+                    <i class="icon fa-solid fa-magnifying-glass"></i>
+                    Find Recipes
+                  </div>
+                </div>
+              </a>
+            </div>
+          </nav>
+
+          <div class="hero-container">
+            <h1 class="hero-h1">
+              Discover simple recipes <br />
+              made for everyday cooking
+            </h1>
+
+            <p class="hero-p">
+              Explore, save, and share recipes from a growing community of cooks
+            </p>
+          </div>
+        </section>
+
+        <section class="recipe-display">
+          <div class="container">
+            <h2>Popular Recipes</h2>
+
+            <div class="recipe-cards"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>&copy; 2026 Cookcipe</footer>
+
+    <div id="recipe-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="close-btn">&times;</button>
+        <div class="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="src/js/general.js"></script>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
