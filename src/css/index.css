@@ -35,3 +35,16 @@
   font-size: var(--fs-p);
   font-weight: var(--fw-regular);
 }
+
+@media (max-width: 480px) {
+  .hero .hero-container {
+    padding: 15vw 1rem;
+  }
+  .hero-container h1 {
+    font-size: var(--fs-xl);
+  }
+
+  .hero-container p {
+    font-size: var(--fs-p);
+  }
+}
