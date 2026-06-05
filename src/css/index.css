@@ -1,5 +1,5 @@
 .hero {
-  background:
+  background-image:
     linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.5) 0%,
@@ -37,6 +37,21 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    background-image:
+      linear-gradient(
+        to bottom right,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0, 0.7) 100%
+      ),
+      url("/src/images/hero-img.webp");
+
+      background-position-x: right;
+      background-position-y: center;
+      background-size: cover;
+    }
+
   .hero .hero-container {
     padding: 15vw 1rem;
   }

@@ -4,8 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon" /> -->
+    <link rel="icon" href="src/images/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="preload"
+      href="src/images/hero-img.webp"
+      as="image"
+      fetchpriority="high"
+      type="image/webp"
+    />
+
     <link rel="stylesheet" href="src/css/general.css" />
     <link rel="stylesheet" href="src/css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="src/css/font.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+
+    <link rel="preconnect" href="https://www.themealdb.com" />
+    <link rel="dns-prefetch" href="https://www.themealdb.com" />
 
     <link
       rel="stylesheet"
@@ -14,7 +35,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>CookCipe</title>
+    <title>CookCipe | Search Ingredients. Find Recipes</title>
   </head>
   <body>
     <main>
@@ -28,7 +49,7 @@
                 </a>
               </div>
 
-              <a href="search.html">
+              <a class="search-btn" href="search.html">
                 <div class="btn-wrapper">
                   <i class="icon fa-solid fa-magnifying-glass"></i>
                   <span class="btn-text">Find Recipes</span>
@@ -67,7 +88,7 @@
       </div>
     </div>
 
-    <script src="src/js/general.js"></script>
-    <script src="src/js/index.js"></script>
+    <script src="src/js/general.js" defer></script>
+    <script src="src/js/index.js" defer></script>
   </body>
 </html>

@@ -2,9 +2,17 @@ recipeCards.innerHTML = `
   <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
   <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
   <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+  <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+  <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+  <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+  <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+  <div class="recipe-card loading"><div class="recipe-img"></div><h3></h3></div>
+
 `;
 
-fetchRecipe();
+window.addEventListener("load", () => {
+  fetchRecipe();
+});
 
 const recipeList = [];
 

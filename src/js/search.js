@@ -40,7 +40,7 @@ async function searchRecipe(query) {
 
     if (!data.meals) {
       console.log("No recipes found for this search.");
-      recipeCards.innerHTML = `<p class="error-msg">No recipes found for "${query}". Try another search!</p>`;
+      recipeCards.innerHTML = `<p class="error-msg">No recipes found for "${query}"  Try another search!</p>`;
       return;
     }
 

@@ -9,12 +9,19 @@
 
     <link
       rel="stylesheet"
+      href="src/css/font.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>CookCipe</title>
+    <title>CookCipe | Search Ingredients. Find Recipes</title>
   </head>
   <body>
     <main>
@@ -63,7 +70,7 @@
       </div>
     </div>
 
-    <script src="src/js/general.js"></script>
-    <script src="src/js/search.js"></script>
+    <script src="src/js/general.js defer"></script>
+    <script src="src/js/search.js" defer></script>
   </body>
 </html>
