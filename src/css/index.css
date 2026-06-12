@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.4) 50%,
       rgba(0, 0, 0, 0.3) 100%
     ),
-    url("src/images/hero-img.webp");
+    url("../src/images/hero-img.webp");
 
   background-blend-mode: multiply;
   background-position: center;
@@ -45,7 +45,7 @@
         rgba(0, 0, 0, 0.7) 50%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url("src/images/hero-img.webp");
+      url("../src/images/hero-img.webp");
 
       background-position-x: right;
       background-position-y: center;
